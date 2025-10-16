@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Video Collection</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+  <main class="max-w-6xl mx-auto p-4 sm:p-6">
+    <header class="mb-6 text-center">
+      <h1 class="text-3xl font-semibold mb-2">🎥 My Video Collection</h1>
+      <p class="text-sm text-gray-600">Watch your favorite clips directly from your computer.</p>
+    </header>
+
+    <!-- Video Grid -->
+    <section class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+
+      <!-- Video 1 -->
+      <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden transition">
+        <video class="w-full h-56 object-cover" controls>
+          <source src="vid/00425bcd6e324f3da6581bf0b5b4acf0.MOV" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold">My First Video</h2>
+          <p class="text-sm text-gray-600 mt-1">Add your own .mp4 file in this tag.</p>
+        </div>
+      </div>
+
+      <!-- Video 2 -->
+      <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden transition">
+        <video class="w-full h-56 object-cover" controls>
+          <source src="vid/00425bcd6e324f3da6581bf0b5b4acf0.MOV" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold">Beach Memories</h2>
+          <p class="text-sm text-gray-600 mt-1">Replace the file with your own video path.</p>
+        </div>
+      </div>
+
+      <!-- Video 3 -->
+      <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden transition">
+        <video class="w-full h-56 object-cover" controls>
+          <source src="vid/00425bcd6e324f3da6581bf0b5b4acf0.MOV" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="p-4">
+          <h2 class="text-lg font-semibold">Travel Vlog</h2>
+          <p class="text-sm text-gray-600 mt-1">Supports .mp4, .webm, or .ogg formats.</p>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+</body>
+</html>
